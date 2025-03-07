@@ -1,77 +1,481 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brechó Online</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="flickity.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="flickity.css" />
     <script src="js/flickty.pkgd.min.js"></script>
-</head>
-<body>
-
+    <script src="js/script.js"></script>
+  </head>
+  <body>
     <div class="container">
+      <div class="content-wrapper">
+        <header></header>
 
-        <div class="content-wrapper">
+        <main>
+          <div class="carrousel">
+            <div
+              class="main-gallery js-flickity"
+              data-flickity-options='{ "freeScroll": true, "wrapAround": true}'
+            >
+              <div class="gallery-cell">
+                <img src="img/6857548.jpg" alt="" />
+              </div>
+              <div class="gallery-cell">
+                <img
+                  src="img/freepik__a-twitter-header-template-with-abstract-shapes-and__4214.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-cell">
+                <img
+                  src="img/freepik__a-twitter-header-template-with-abstract-shapes-and__4215.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-cell">
+                <img
+                  src="img/freepik__a-twitter-header-template-with-abstract-shapes-and__4216.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-cell">
+                <img
+                  src="img/freepik__a-twitter-header-template-with-abstract-shapes-and__4217.jpeg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
 
-            <header>
-                
-            </header>
-
-            <main>
-                <div class="carrousel">
-                    <div class="main-gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true}'>
-                        <div class="gallery-cell"> <img src="img/6857548.jpg" alt=""></div>
-                        <div class="gallery-cell"> <img src="img/freepik__a-twitter-header-template-with-abstract-shapes-and__4214.jpeg" alt=""></div>
-                        <div class="gallery-cell"> <img src="img/freepik__a-twitter-header-template-with-abstract-shapes-and__4215.jpeg" alt=""></div>
-                        <div class="gallery-cell"> <img src="img/freepik__a-twitter-header-template-with-abstract-shapes-and__4216.jpeg" alt=""></div>
-                        <div class="gallery-cell"> <img src="img/freepik__a-twitter-header-template-with-abstract-shapes-and__4217.jpeg" alt=""></div>
+          <div class="container-catalogo">
+            <h2 class="catalogo-titulo">Blusas</h2>
+            <div class="catalogo catalogo-blusas">
+              <div class="carrousel">
+                <div
+                  class="catalogo-gallery js-flickity"
+                  data-flickity-options='{ "freeScroll": true, "wrapAround": true, "pageDots": false}'
+                >
+                  <div class="gallery-cell">
+                    <div class="card-container">
+                      <div class="img-wrapper">
+                        <img src="img/img0069_b.webp" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <svg
+                          width="40"
+                          height="40"
+                          fill="currentColor"
+                          aria-label="cora\xE7\xE3o"
+                          viewBox="0 0 512 512"
+                          color="#3ACBC7"
+                          class="sc-be715261-0kuvDHm"
+                          id="sc-be715261-0kuvDHm"
+                        >
+                          <path
+                            d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3m-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8"
+                          ></path>
+                        </svg>
+                        <p>Camisa hering feminina bege</p>
+                        <p>Tam M</p>
+                        <p>R$90,95</p>
+                      </div>
                     </div>
+                  </div>
+                  <div class="gallery-cell">
+                    <div class="card-container">
+                      <div class="img-wrapper">
+                        <img src="img/img0069_b.webp" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <svg
+                          width="40"
+                          height="40"
+                          fill="currentColor"
+                          aria-label="cora\xE7\xE3o"
+                          viewBox="0 0 512 512"
+                          color="#3ACBC7"
+                          class="sc-be715261-0kuvDHm"
+                          id="sc-be715261-0kuvDHm"
+                        >
+                          <path
+                            d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3m-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8"
+                          ></path>
+                        </svg>
+                        <p>Camisa hering feminina bege</p>
+                        <p>Tam M</p>
+                        <p>R$90,95</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gallery-cell">
+                    <div class="card-container">
+                      <div class="img-wrapper">
+                        <img src="img/img0069_b.webp" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <svg
+                          width="40"
+                          height="40"
+                          fill="currentColor"
+                          aria-label="cora\xE7\xE3o"
+                          viewBox="0 0 512 512"
+                          color="#3ACBC7"
+                          class="sc-be715261-0kuvDHm"
+                          id="sc-be715261-0kuvDHm"
+                        >
+                          <path
+                            d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3m-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8"
+                          ></path>
+                        </svg>
+                        <p>Camisa hering feminina bege</p>
+                        <p>Tam M</p>
+                        <p>R$90,95</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gallery-cell">
+                    <div class="card-container">
+                      <div class="img-wrapper">
+                        <img src="img/img0069_b.webp" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <svg
+                          width="40"
+                          height="40"
+                          fill="currentColor"
+                          aria-label="cora\xE7\xE3o"
+                          viewBox="0 0 512 512"
+                          color="#3ACBC7"
+                          class="sc-be715261-0kuvDHm"
+                          id="sc-be715261-0kuvDHm"
+                        >
+                          <path
+                            d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3m-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8"
+                          ></path>
+                        </svg>
+                        <p>Camisa hering feminina bege</p>
+                        <p>Tam M</p>
+                        <p>R$90,95</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gallery-cell">
+                    <div class="card-container">
+                      <div class="img-wrapper">
+                        <img src="img/img0069_b.webp" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <svg
+                          width="40"
+                          height="40"
+                          fill="currentColor"
+                          aria-label="cora\xE7\xE3o"
+                          viewBox="0 0 512 512"
+                          color="#3ACBC7"
+                          class="sc-be715261-0kuvDHm"
+                          id="sc-be715261-0kuvDHm"
+                        >
+                          <path
+                            d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3m-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8"
+                          ></path>
+                        </svg>
+                        <p>Camisa hering feminina bege</p>
+                        <p>Tam M</p>
+                        <p>R$90,95</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-
-                <div class="container-catalogo">
-
-                    <div class="catalogo-blusas">
-                        <div class="carrousel">
-                            <div class="catalogo-gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true}'>
-                                <div class="gallery-cell"> <img src="" alt=""></div>
-                                <div class="gallery-cell"> <img src="" alt=""></div>
-                                <div class="gallery-cell"> <img src="" alt=""></div>
-                                <div class="gallery-cell"> <img src="" alt=""></div>
-                                <div class="gallery-cell"> <img src="" alt=""></div>
-                            </div>
-                        </div>
+              </div>
+            </div>
+            <h2 class="catalogo-titulo">Calças</h2>
+            <div class="catalogo catalogo-calcas">
+              <div class="carrousel">
+                <div
+                  class="catalogo-gallery js-flickity"
+                  data-flickity-options='{ "freeScroll": true, "wrapAround": true, "pageDots": false}'
+                >
+                  <div class="gallery-cell">
+                    <div class="card-container">
+                      <div class="img-wrapper">
+                        <img src="img/img0069_b.webp" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <svg
+                          width="40"
+                          height="40"
+                          fill="currentColor"
+                          aria-label="cora\xE7\xE3o"
+                          viewBox="0 0 512 512"
+                          color="#3ACBC7"
+                          class="sc-be715261-0kuvDHm"
+                          id="sc-be715261-0kuvDHm"
+                        >
+                          <path
+                            d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3m-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8"
+                          ></path>
+                        </svg>
+                        <p>Camisa hering feminina bege</p>
+                        <p>Tam M</p>
+                        <p>R$90,95</p>
+                      </div>
                     </div>
-
-                    <div class="catalogo-calcas">
-                        <div class="catalogo-gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true}'>
-                            <div class="gallery-cell"> <img src="" alt=""></div>
-                                <div class="gallery-cell"> <img src="" alt=""></div>
-                                <div class="gallery-cell"> <img src="" alt=""></div>
-                                <div class="gallery-cell"> <img src="" alt=""></div>
-                                <div class="gallery-cell"> <img src="" alt=""></div>
-                        </div>
+                  </div>
+                  <div class="gallery-cell">
+                    <div class="card-container">
+                      <div class="img-wrapper">
+                        <img src="img/img0069_b.webp" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <svg
+                          width="40"
+                          height="40"
+                          fill="currentColor"
+                          aria-label="cora\xE7\xE3o"
+                          viewBox="0 0 512 512"
+                          color="#3ACBC7"
+                          class="sc-be715261-0kuvDHm"
+                          id="sc-be715261-0kuvDHm"
+                        >
+                          <path
+                            d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3m-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8"
+                          ></path>
+                        </svg>
+                        <p>Camisa hering feminina bege</p>
+                        <p>Tam M</p>
+                        <p>R$90,95</p>
+                      </div>
                     </div>
-
-                    <div class="catalogo-calcas">
-                        <div class="catalogo-gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true}'>
-                            <div class="gallery-cell"> <img src="" alt=""></div>
-                                <div class="gallery-cell"> <img src="" alt=""></div>
-                                <div class="gallery-cell"> <img src="" alt=""></div>
-                                <div class="gallery-cell"> <img src="" alt=""></div>
-                                <div class="gallery-cell"> <img src="" alt=""></div>
-                        </div>
+                  </div>
+                  <div class="gallery-cell">
+                    <div class="card-container">
+                      <div class="img-wrapper">
+                        <img src="img/img0069_b.webp" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <svg
+                          width="40"
+                          height="40"
+                          fill="currentColor"
+                          aria-label="cora\xE7\xE3o"
+                          viewBox="0 0 512 512"
+                          color="#3ACBC7"
+                          class="sc-be715261-0kuvDHm"
+                          id="sc-be715261-0kuvDHm"
+                        >
+                          <path
+                            d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3m-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8"
+                          ></path>
+                        </svg>
+                        <p>Camisa hering feminina bege</p>
+                        <p>Tam M</p>
+                        <p>R$90,95</p>
+                      </div>
                     </div>
+                  </div>
+                  <div class="gallery-cell">
+                    <div class="card-container">
+                      <div class="img-wrapper">
+                        <img src="img/img0069_b.webp" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <svg
+                          width="40"
+                          height="40"
+                          fill="currentColor"
+                          aria-label="cora\xE7\xE3o"
+                          viewBox="0 0 512 512"
+                          color="#3ACBC7"
+                          class="sc-be715261-0kuvDHm"
+                          id="sc-be715261-0kuvDHm"
+                        >
+                          <path
+                            d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3m-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8"
+                          ></path>
+                        </svg>
+                        <p>Camisa hering feminina bege</p>
+                        <p>Tam M</p>
+                        <p>R$90,95</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gallery-cell">
+                    <div class="card-container">
+                      <div class="img-wrapper">
+                        <img src="img/img0069_b.webp" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <svg
+                          width="40"
+                          height="40"
+                          fill="currentColor"
+                          aria-label="cora\xE7\xE3o"
+                          viewBox="0 0 512 512"
+                          color="#3ACBC7"
+                          class="sc-be715261-0kuvDHm"
+                          id="sc-be715261-0kuvDHm"
+                        >
+                          <path
+                            d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3m-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8"
+                          ></path>
+                        </svg>
+                        <p>Camisa hering feminina bege</p>
+                        <p>Tam M</p>
+                        <p>R$90,95</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+            </div>
+            <h2 class="catalogo-titulo">Acessórios</h2>
+            <div class="catalogo catalogo-acessórios">
+              <div class="carrousel">
+                <div
+                  class="catalogo-gallery js-flickity"
+                  data-flickity-options='{ "freeScroll": true, "wrapAround": true, "pageDots": false}'
+                >
+                  <div class="gallery-cell">
+                    <div class="card-container">
+                      <div class="img-wrapper">
+                        <img src="img/img0069_b.webp" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <svg
+                          width="40"
+                          height="40"
+                          fill="currentColor"
+                          aria-label="cora\xE7\xE3o"
+                          viewBox="0 0 512 512"
+                          color="#3ACBC7"
+                          class="sc-be715261-0kuvDHm"
+                          id="sc-be715261-0kuvDHm"
+                        >
+                          <path
+                            d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3m-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8"
+                          ></path>
+                        </svg>
+                        <p>Camisa hering feminina bege</p>
+                        <p>Tam M</p>
+                        <p>R$90,95</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gallery-cell">
+                    <div class="card-container">
+                      <div class="img-wrapper">
+                        <img src="img/img0069_b.webp" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <svg
+                          width="40"
+                          height="40"
+                          fill="currentColor"
+                          aria-label="cora\xE7\xE3o"
+                          viewBox="0 0 512 512"
+                          color="#3ACBC7"
+                          class="sc-be715261-0kuvDHm"
+                          id="sc-be715261-0kuvDHm"
+                        >
+                          <path
+                            d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3m-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8"
+                          ></path>
+                        </svg>
+                        <p>Camisa hering feminina bege</p>
+                        <p>Tam M</p>
+                        <p>R$90,95</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gallery-cell">
+                    <div class="card-container">
+                      <div class="img-wrapper">
+                        <img src="img/img0069_b.webp" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <svg
+                          width="40"
+                          height="40"
+                          fill="currentColor"
+                          aria-label="cora\xE7\xE3o"
+                          viewBox="0 0 512 512"
+                          color="#3ACBC7"
+                          class="sc-be715261-0kuvDHm"
+                          id="sc-be715261-0kuvDHm"
+                        >
+                          <path
+                            d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3m-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8"
+                          ></path>
+                        </svg>
+                        <p>Camisa hering feminina bege</p>
+                        <p>Tam M</p>
+                        <p>R$90,95</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gallery-cell">
+                    <div class="card-container">
+                      <div class="img-wrapper">
+                        <img src="img/img0069_b.webp" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <svg
+                          width="40"
+                          height="40"
+                          fill="currentColor"
+                          aria-label="cora\xE7\xE3o"
+                          viewBox="0 0 512 512"
+                          color="#3ACBC7"
+                          class="sc-be715261-0kuvDHm"
+                          id="sc-be715261-0kuvDHm"
+                        >
+                          <path
+                            d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3m-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8"
+                          ></path>
+                        </svg>
+                        <p>Camisa hering feminina bege</p>
+                        <p>Tam M</p>
+                        <p>R$90,95</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gallery-cell">
+                    <div class="card-container">
+                      <div class="img-wrapper">
+                        <img src="img/img0069_b.webp" alt="" />
+                      </div>
+                      <div class="card-description">
+                        <svg
+                          width="40"
+                          height="40"
+                          fill="currentColor"
+                          aria-label="cora\xE7\xE3o"
+                          viewBox="0 0 512 512"
+                          color="#3ACBC7"
+                          class="sc-be715261-0kuvDHm"
+                          id="sc-be715261-0kuvDHm"
+                        >
+                          <path
+                            d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3m-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8"
+                          ></path>
+                        </svg>
+                        <p>Camisa hering feminina bege</p>
+                        <p>Tam M</p>
+                        <p>R$90,95</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
 
-            </main>
-        </div>
-
-        <footer>
-
-        </footer>
-
+      <footer></footer>
     </div>
-
-</body>
+  </body>
 </html>

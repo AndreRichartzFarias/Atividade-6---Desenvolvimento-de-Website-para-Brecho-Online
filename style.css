@@ -27,6 +27,13 @@ main {
 
 .container-catalogo {
     width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.catalogo {
+  width: 100%;
 }
 
 .main-gallery {
@@ -54,8 +61,67 @@ main {
 
   .catalogo-gallery .gallery-cell {
     width: 20%;
-    height: 120px;
+    height: 700px;
     margin-right: 10px;
-    background: #8C8;
+    background: rgba(235, 235, 235, 0);
     counter-increment: gallery-cell;
+  }
+
+  .catalogo-gallery .gallery-cell img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+  }
+
+  .card-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .img-wrapper {
+    height: 70%;
+    overflow: hidden;
+  }
+
+  .img-wrapper img {
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .card-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    height: 30%;
+  }
+
+  .card-description p {
+    font-size: 20px;
+  }
+
+  .gallery-cell  {
+    user-select: none;
+  }
+
+
+  #sc-be715261-0kuvDHm {
+    z-index: 1000;
+    transition: 1s;
+  }
+  #sc-be715261-0kuvDHm:hover {
+    cursor: pointer;
+  }
+
+  .catalogo-titulo {
+    font-size: 36px;
+  }
+
+
+  .isClicked {
+    fill: black;
+    
   }

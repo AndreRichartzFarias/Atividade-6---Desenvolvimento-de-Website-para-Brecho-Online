@@ -5,9 +5,18 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+header {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  display: block;
+  position: sticky;
+  top: 0;   
+  z-index: 1000;
+}
+
 .navegador {
     background-color: rgb(96, 137, 190);
-    padding: 1rem;
+    padding: 0.5rem;
 }
 .navegador ul {
     list-style-type: none;
@@ -18,8 +27,11 @@
 .navegador a {
     color: rgb(0, 0, 0);
     font-weight: bold;
-    padding: 10px;
-    font-size: large;
+    padding: 15px;
+    font-size: medium;
+    text-wrap: nowrap;
+    overflow: visible;
+    
 }
 .navegador a:hover {
     color: rgb(188, 219, 247);
@@ -129,12 +141,14 @@
     width: 50%;
   }
 
-.container {
+  .container {
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     width: 100%;
+    flex-direction: column;
 }
+
 
 .content-wrapper {
     width: 66%;
@@ -206,7 +220,6 @@ main {
   }
 
   .img-wrapper {
-    height: 70%;
     overflow: hidden;
   }
 

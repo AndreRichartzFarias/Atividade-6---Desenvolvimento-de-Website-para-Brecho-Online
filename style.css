@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.main-gallery {
+    background: #EEE;
+  }
+  
+  .gallery-cell {
+    width: 66%;
+    height: 450px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
+  }
+  
+  .gallery-cell {
+    display: flex;
+    align-content: center;
+  }
+
+  .gallery-cell img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+  }

@@ -277,6 +277,23 @@ main {
   align-items: center;
 }
 
+#contato {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  background-color: #eb487e;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+#formulario_contato {
+  padding: 20px;
+  background-color: rgb(86, 86, 86);
+}
+
 
  @media screen and (max-width: 600px) {
     .topnav .search-container {
